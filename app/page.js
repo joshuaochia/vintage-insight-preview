@@ -14,7 +14,7 @@ export default async function Home() {
   const heroPost = allPosts[0];
   const morePosts = Array.isArray(allPosts) ? allPosts.slice(1) : {};
 
-  const date = heroPost.fields.dat;
+  const date = heroPost.fields.date;
   const title = heroPost.fields.title;
   const excerpt = heroPost.fields.excerpt;
   const slug = heroPost.fields.slug;
